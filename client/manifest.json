@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Switch it!",
+  "short_name": "Switch your URLs between your environments.",
+  "description": "Use the Switch It! extension to change the environment of your website quickly and easily.",
+  "version": "1.8",
+  "browser_action": {
+   "default_icon": "icon.png",
+   "default_popup": "index.html"
+  },
+  "permissions": [
+   	"activeTab",
+   	"tabs",
+    "history",
+    "storage",
+    "<all_urls>",
+    "webRequest",
+    "webRequestBlocking"
+  ],
+  "options_page": "settings.html"
+}
