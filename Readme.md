@@ -1,4 +1,5 @@
-* What is this extension?
+# What is this extension?
+
 SwitchIt! is an Chrome extension which switches your current URL with pre-defined URLs.
 
 In your local development let's imagine there are 6 different domains and each time you 
@@ -7,11 +8,11 @@ want to visit one other domain, it could be hard to rename URL.
 Current URL: www.domain.local/1/2/3/4
 Destination URL: www.domain.com/1/2/3/4
 
-* Chrome Extension
+# Chrome Extension
 
 https://chrome.google.com/webstore/detail/switch-it/cdpebegipedoolgclhigpccflngpljcl
 
-* How to install?
+# How to install?
 
 1 - Install yarn
 	brew update
