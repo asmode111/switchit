@@ -23,7 +23,9 @@ brew install yarn
 ```
 
 2 - Clone the repository
-```git clone https://github.com/onurdegerli/switchit.git```
+```
+git clone https://github.com/onurdegerli/switchit.git
+```
 
 3 - Install npm packages
 ```
