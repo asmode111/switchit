@@ -1,38 +1,33 @@
-1 - Yarn example:
-https://scotch.io/tutorials/setup-a-react-environment-using-webpack-and-babel
+* What is this extension?
+SwitchIt! is an Chrome extension which switches your current URL with pre-defined URLs.
 
-2 - Bootstrap examples:
-https://getbootstrap.com/docs/4.0/examples/checkout/
-https://reactstrap.github.io/components/
+In your local development let's imagine there are 6 different domains and each time you 
+want to visit one other domain, it could be hard to rename URL.
 
-3 - Chrome examples:
-https://developer.chrome.com/extensions/options
+Current URL: www.domain.local/1/2/3/4
+Destination URL: www.domain.com/1/2/3/4
 
-4 - Using technologies
-- React
-- Yarn
-- Bootstrap
-- Reactstrap
+* Chrome Extension
 
-5 - Installation steps
-    1 - Install yarn if it was not installed before. 
-    	brew update
-    	brew install yarn
-    2 - Clone the repository
-    	git clone https://onurdegerli@bitbucket.org/onurdegerli/switchit.git
-    3 - Install npm packages
-    	cd ~/switchit
-    	yarn install
-    4 - Build packages for production.
-    	yarn build
-    5 - Run yarn for local development.
-    	yarn start
-    	Visit local page: http://localhost:8080 for index
-    	http://localhost:8080/settings.html for option page
+https://chrome.google.com/webstore/detail/switch-it/cdpebegipedoolgclhigpccflngpljcl
 
-6 - Publish the extension
-https://developer.chrome.com/webstore/publish
+* How to install?
 
-7 - User Agents
-https://developers.whatismybrowser.com/useragents/explore/
-https://deviceatlas.com/blog/list-of-user-agent-strings
+1 - Install yarn
+	brew update
+	brew install yarn
+
+2 - Clone the repository
+	git clone https://github.com/onurdegerli/switchit.git
+
+3 - Install npm packages
+	cd ~/switchit
+	yarn install
+
+4 - Build packages for production.
+	yarn build
+
+5 - Run yarn for local development.
+	yarn start
+	Visit local page: http://localhost:8080 for index
+	http://localhost:8080/settings.html for option page
