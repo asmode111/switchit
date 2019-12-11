@@ -17,21 +17,21 @@ https://chrome.google.com/webstore/detail/switch-it/cdpebegipedoolgclhigpccflngp
 
 1 - Install yarn
 
-`brew update`
-`brew install yarn`
+```brew update```
+```brew install yarn```
 
 2 - Clone the repository
-`git clone https://github.com/onurdegerli/switchit.git`
+```git clone https://github.com/onurdegerli/switchit.git```
 
 3 - Install npm packages
-`cd ~/switchit`
-`yarn install`
+```cd ~/switchit```
+```yarn install```
 
 4 - Build packages for production.
-`yarn build`
+```yarn build```
 
 5 - Run yarn for local development.
-`yarn start`
+```yarn start```
 
 Visit local page: http://localhost:8080 for index
 
