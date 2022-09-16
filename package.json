@@ -8,7 +8,7 @@
     "build": "webpack; cp client/manifest.json dist/.; cp client/icon.png dist/.; cp client/favicon.ico dist/."
   },
   "dependencies": {
-    "bootstrap": "^4.0.0",
+    "bootstrap": "^4.3.1",
     "css-loader": "^0.28.9",
     "file-loader": "^1.1.11",
     "html-webpack-plugin": "^2.30.1",
